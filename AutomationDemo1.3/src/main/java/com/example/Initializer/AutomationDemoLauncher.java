@@ -52,8 +52,8 @@ public class AutomationDemoLauncher {
 
 		timeDto.setEndTime(endTime);
 
-		System.out.println(SummaryHpReport.lineSkipper + "Start Time :" + timeDto.getStartTime() + "<---->" + "End Time"
-				+ timeDto.getEndTime() + SummaryHpReport.lineSkipper);
+		System.out.println(SummaryHpReport.lineSkipper + "Start Time : " + timeDto.getStartTime() + " ----> "
+				+ "End Time : " + timeDto.getEndTime() + SummaryHpReport.lineSkipper);
 
 		System.out.println("******* Process Completed *********");
 	}
